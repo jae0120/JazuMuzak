@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jazu Muzak</string>
+    <string name="app_title">Welcome to Jazu\'s Muzak!</string>
+    <string name="instruction">What would you like to listen to?</string>
+    <string name="all">All Songs</string>
+    <string name="alterntive">Alternative</string>
+    <string name="Country">Country</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+</resources>

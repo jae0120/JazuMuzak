@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="@string/app_title"
+            android:layout_marginVertical="16dp"
+
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction"
+        android:textSize="20sp"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/alterntive"
+        android:background="#E91E63"
+        android:id="@+id/alternative"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/Country"
+        android:background="#E65100"
+        android:id="@+id/country"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/pop"
+        android:background="#FFD600"
+        android:id="@+id/pop"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/rock"
+        android:background="#64DD17"
+        android:id="@+id/rock"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/all"
+        android:id="@+id/all_songs"
+        android:background="@android:color/holo_blue_dark" />
+
+</LinearLayout>
