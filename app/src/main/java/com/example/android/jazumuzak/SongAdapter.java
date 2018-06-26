@@ -11,10 +11,7 @@ import java.util.ArrayList;
 public class SongAdapter extends ArrayAdapter<Song> {
     public SongAdapter(Activity context, ArrayList<Song> songs) {
         /*
-        Here, we initialize the ArrayAdapter's internal storage for the context and the list.
-        the second argument is used when the ArrayAdapter is populating a single TextView.
-        Because this is a custom adapter for three TextViews, the adapter is not
-        going to use this second argument, so it can be any value. Here, we used 0.
+        Some code borrowed from Udacity lesson 4.3 and Android Flavor App example.
         */
         super(context, 0, songs);
     }

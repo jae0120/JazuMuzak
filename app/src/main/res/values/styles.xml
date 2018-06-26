@@ -17,5 +17,4 @@
         <item name="android:typeface">monospace</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
-
 </resources>
